@@ -1,5 +1,5 @@
-import { GitContributors } from "C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_b3a4bf9c0307fc5d8e8919706418d6f0/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
-import { GitChangelog } from "C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_b3a4bf9c0307fc5d8e8919706418d6f0/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
+import { GitContributors } from "C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_cc3dc9f727285d453a0d8a1c115b98bd/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
+import { GitChangelog } from "C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_cc3dc9f727285d453a0d8a1c115b98bd/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
 
 export default {
   enhance: ({ app }) => {

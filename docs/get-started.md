@@ -1,46 +1,160 @@
-# Get Started
+# 快速开始
 
-This is a normal page, which contains VuePress basics.
+::: important
+强烈推荐导入gil地图模版，从模版地图上开发开发奇域。若在了解到该模版地图前已进行大量奇域的搭建，迁移困难，可移步至[以gia元件形式下载][跳转gia]
+:::
 
-## Pages
+## 下载gil地图元件（推荐）
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+前往[**奇域资产中心**][gil地图链接]下载元件并**以地图的形式**导入
 
-See [routing][] for more details.
+::: details 如果你需要宝妈式的导入教程，请展开此处
+1.在链接中，点击**下载资产**
 
-## Content
+![gil奇域资产中心图片][]
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+2.在下载的文件夹中，找到`UGC对话框模板——地图版.gil`文件
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+![gil存档图片][]
 
-## Configuration
+3.进入游戏，打开`我的奇域`，在选择存档的节点，点击`导入存档`
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+![我的奇域][]
 
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
+4.按照提示，选择`UGC对话框模板——地图版.gil`文件
 
-Meanwhile, you can also add configuration per page with [frontmatter][].
+![按照提示选择gil存档][]
 
-## Layouts and customization
+5.成功导入后，存档界面理应出现导入后的地图
 
-Here are common configuration controlling layout of `@vuepress/theme-default`:
+![成功导入地图][]
 
-- [navbar][]
-- [sidebar][]
+:::
 
-Check [default theme docs][default-theme] for full reference.
+## 以gia元件形式下载
 
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
+ ### 1.下载文件
 
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+前往[**奇域资产中心**][gia元件链接]下载元件并**以元件的形式**导入
+
+::: details 如果你需要宝妈式的导入教程，请展开此处
+1.在链接中，点击**下载资产**
+
+![gia奇域资产中心图片][]
+
+2.在下载的文件夹中，找到`UGC对话框模板——元件版.gia`文件
+
+![gia存档图片][]
+
+3.进入游戏，在任意奇域存档中，进入`资产导入导出管理`
+
+![资产导入导出管理位置][]
+
+4.点击`加载外部资产`文件
+
+![点击加载外部资产][]
+
+5.在弹出的界面点击`打开目录`
+
+![打开目录][]
+
+6.在弹出来的文件夹中，将**步骤2**下载的文件复制到该文件夹中
+
+![复制元件文件][]
+
+7.回到`资产导入导出管理`，重复**步骤四**，点击`加载外部资产`
+
+![加载外部资产][]
+
+8.在**资产包**中，单击`UGC对话模版`元件，再点击右下角的`转存所选资产`
+
+![转存资产][]
+
+9.在弹出的页面中，建议选择`导入页签`，并且选择`确认`，即可正常导入
+![确认转存资产][]
+
+:::
+
+::: info 可选建议
+当选择`导入页签`后，奇域内会出现多个起名`导入页签`的页签，可直接将它们修改成`对话模版页签`等等，方便与其他资产做独立开来
+:::
+
+### 2.导入gia元件后修复索引
+
+::: warning
+对话模版高度依赖UI控件索引和玩家变量，导入资产后**必须**进行修复索引和切换玩家模版操作
+:::
+#### 玩家模版迁移
+进入**战斗预设**界面，在玩家模板下选择`对话模板`，右侧面板将选择玩家应用到所有玩家即可
+![玩家模板生效][]
+
+::: note
+你可以将玩家对话模板身上的变量和节点图迁移至你原有模板身上，但这并不是建议的选项，因此这里不例外说明
+:::
+
+#### 控件索引修复
+
+##### 1.玩家身上节点图的控件索引修复
+前往玩家模板身上的节点图，点击编辑变量数
+![玩家身上节点图][]
+
+可以发现有一个`「（勿删）对话下一句按钮」`的变量
+
+![玩家身上节点图变量][]
+
+前往界面控件组管理的`1.界面控件组库`区域，选中节点图变量名对应的控件`2.「（勿删）对话下一句按钮」`，在右侧的界面处`3.复制控件的索引id`(1073741845)
+
+![寻找玩家模版身上的控件索引][]
+
+回到玩家身上的节点图变量，将刚才获得的索引复制进去替换即可
+
+![替换玩家身上节点图变量索引][]
+
+##### 2.部分元件实体身上节点图的控件索引修复
+
+::: note
+若不需要使用到任务功能，可不用对任务管理器进行修复
+:::
+
+来到元件库，将三个中文名的元件实体`调整屏幕比例实体`、`对话管理器`、`任务管理器`拖出来
+
+![元件库实体展示][]
+
+在它们身上的节点图中，同样存在部分需要修复的索引。重复[1.玩家身上节点图的控件索引修复][跳转玩家控件索引修复]的步骤，进入界面控件组库，将对应名字的控件id复制替换进来
+
+![查看对话管理器对话索引][]
+
+至此修复功能已完毕，可进入下一步查看
+
+## 参考链接
+[【原神千星奇域】奇域资产中心它来了，对话模版地图更新运镜功能，并同步上架奇域资产中心【创作体验服】]( https://www.bilibili.com/video/BV11ZS5BCEfG/?share_source=copy_web&vd_source=812e2c82e7fedf05055036fee2e3a635)
+
+[跳转gia]:#以gia元件形式下载
+
+[跳转玩家控件索引修复]:#_1-玩家身上节点图的控件索引修复
+
+[gil地图链接]:https://act.mihoyo.com/ys/prod/ugc/component-store/index.html#/item/1992801772275511296
+[gil奇域资产中心图片]:./assets/gil奇域资产中心图片.png
+[gil存档图片]: ./assets/gil存档图片.png
+[我的奇域]: ./assets/我的奇域.png
+[按照提示选择gil存档]: ./assets/按照提示选择gil存档.png
+[成功导入地图]: ./assets/成功导入地图.png
+
+[gia元件链接]:https://act.mihoyo.com/ys/prod/ugc/component-store/index.html#/item/1992936426160795648
+[gia奇域资产中心图片]:./assets/gia奇域资产中心图片.png
+[gia存档图片]: ./assets/gia存档图片.png
+[资产导入导出管理位置]: ./assets/资产导入导出管理位置.png
+[点击加载外部资产]: ./assets/点击加载外部资产.png
+[打开目录]: ./assets/点击打开目录.png
+[复制元件文件]:./assets/复制元件文件.png
+[加载外部资产]:./assets/加载外部资产.png
+[转存资产]:./assets/转存资产.png
+[确认转存资产]:./assets/确认转存资产.png
+
+[玩家模板生效]:./assets/玩家模板生效.png
+[玩家身上节点图]:./assets/玩家身上节点图.png
+[玩家身上节点图变量]:./assets/玩家身上节点图变量.png
+[寻找玩家模版身上的控件索引]:./assets/寻找玩家模版身上的控件索引.png
+[替换玩家身上节点图变量索引]:./assets/替换玩家身上节点图变量索引.png
+[元件库实体展示]:./assets/元件库实体展示.png
+[查看对话管理器对话索引]:./assets/查看对话管理器对话索引.png
