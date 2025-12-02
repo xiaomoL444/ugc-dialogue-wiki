@@ -7,7 +7,11 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: Introduction
+  - text: 奇域资产中心链接
+    link: https://act.mihoyo.com/ys/prod/ugc/component-store/index.html#/item/1992801772275511296
+    type: secondary
+
+  - text: B站视频链接
     link: https://vuejs.press/guide/introduction.html
     type: secondary
 

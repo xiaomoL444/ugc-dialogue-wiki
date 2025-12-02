@@ -76,8 +76,6 @@
 <p>在它们身上的节点图中，同样存在部分需要修复的索引。重复<a href="#_1-%E7%8E%A9%E5%AE%B6%E8%BA%AB%E4%B8%8A%E8%8A%82%E7%82%B9%E5%9B%BE%E7%9A%84%E6%8E%A7%E4%BB%B6%E7%B4%A2%E5%BC%95%E4%BF%AE%E5%A4%8D">1.玩家身上节点图的控件索引修复</a>的步骤，进入界面控件组库，将对应名字的控件id复制替换进来</p>
 <p><img src="@source/assets/查看对话管理器对话索引.png" alt="查看对话管理器对话索引"></p>
 <p>至此修复功能已完毕，可进入下一步查看</p>
-<h2 id="参考链接" tabindex="-1"><a class="header-anchor" href="#参考链接"><span>参考链接</span></a></h2>
-<p><a href="https://www.bilibili.com/video/BV11ZS5BCEfG/?share_source=copy_web&amp;vd_source=812e2c82e7fedf05055036fee2e3a635" target="_blank" rel="noopener noreferrer">【原神千星奇域】奇域资产中心它来了，对话模版地图更新运镜功能，并同步上架奇域资产中心【创作体验服】</a></p>
 </div></template>
 
 

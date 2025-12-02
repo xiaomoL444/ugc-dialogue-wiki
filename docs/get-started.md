@@ -126,9 +126,6 @@
 
 至此修复功能已完毕，可进入下一步查看
 
-## 参考链接
-[【原神千星奇域】奇域资产中心它来了，对话模版地图更新运镜功能，并同步上架奇域资产中心【创作体验服】]( https://www.bilibili.com/video/BV11ZS5BCEfG/?share_source=copy_web&vd_source=812e2c82e7fedf05055036fee2e3a635)
-
 [跳转gia]:#以gia元件形式下载
 
 [跳转玩家控件索引修复]:#_1-玩家身上节点图的控件索引修复
