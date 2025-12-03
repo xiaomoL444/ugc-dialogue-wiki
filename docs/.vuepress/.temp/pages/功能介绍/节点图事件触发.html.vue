@@ -12,7 +12,7 @@
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>特殊的，当对话结束（即<strong>退出对话流时</strong>），会额外触发一个<code v-pre>***对话结束***</code>事件（有三个星号）</p>
+<p>特殊的，当对话结束（即<strong>退出对话流时</strong>，或是跳转对话没内容时，结束对话时），会额外触发一个<code v-pre>***对话结束***</code>事件（有三个星号）</p>
 </div>
 <p><img src="/assets/dialogue-function-introduction/节点图触发事件.png" alt="示例"></p>
 <p>而在跳转对话中，同样存在<code v-pre>跳转节点图</code>，原理和上面的<code v-pre>节点图事件触发</code>一样，在跳转对话时，会<code v-pre>触发节点图事件</code></p>

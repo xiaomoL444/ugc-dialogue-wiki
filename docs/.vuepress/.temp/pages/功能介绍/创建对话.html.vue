@@ -1,4 +1,4 @@
-<template><div><h1 id="创建对话-基础" tabindex="-1"><a class="header-anchor" href="#创建对话-基础"><span>创建对话（基础）</span></a></h1>
+<template><div><h1 id="创建对话-基础教程" tabindex="-1"><a class="header-anchor" href="#创建对话-基础教程"><span>创建对话（基础教程）</span></a></h1>
 <p>这里我会边讲边做一个小小的示例，更多内容可以查看其他部分</p>
 <h3 id="_1-添加数据" tabindex="-1"><a class="header-anchor" href="#_1-添加数据"><span>1.添加数据</span></a></h3>
 <p>1.将动态实体拖入场上，进入<code v-pre>组件</code>后，点击<code v-pre>自定义变量</code>的<code v-pre>详细编辑</code></p>
@@ -7,17 +7,17 @@
 <p><img src="/assets/dialogue-function-introduction/example1.png" alt="模版图片"></p>
 <p>3.点进来后，可以看见有两个字段，<code v-pre>对话列表</code>和<code v-pre>跳转对话</code></p>
 <p>我们这里先关注<code v-pre>对话列表</code>，点击对话列表第一个编辑按钮（在基础复杂文本结构体_xxx右边那个小按钮）</p>
-<p>跳转对话请参阅（我这里还没写）</p>
+<p>跳转对话请参阅<a href="./%E8%B7%B3%E8%BD%AC%E5%AF%B9%E8%AF%9D">跳转对话</a></p>
 <p><img src="/assets/dialogue-function-introduction/对话结构体变量内容.png" alt="模版图片"></p>
-<p>4.这里所有字段作用可以参考（我这里还没写）</p>
+<p>4.这里所有字段作用可以参考（我这里还没写，只额外说明一点，就是等待显示时间，就是触发对话后n秒才开始播放第一句话，因为原神本体的聊天角色和角色之间会偶尔有较长的停顿，因此有这个）</p>
 <p><img src="/assets/dialogue-function-introduction/基础复杂文本结构体内容.png" alt="模版图片"></p>
 <p>5.我们先来做个最简单的示例，我们让<code v-pre>伊蕾娜</code>这个人名，说<code v-pre>“天哪，我简直是天底下最美的女人”</code>，<code v-pre>“我真的好喜欢我自己”</code>两句话</p>
 <p>就可以在标题处写上名字<code v-pre>伊蕾娜</code>，在内容处，点击一个加号，得到共计2长度的内容列表，并将两句话分别填入进去</p>
 <p><img src="/assets/dialogue-function-introduction/伊蕾娜自白.png" alt="模版图片"></p>
 <p>至此一个最简单的对话数据就添加完毕了</p>
 <h3 id="_2-添加触发方式-站桩对话示例" tabindex="-1"><a class="header-anchor" href="#_2-添加触发方式-站桩对话示例"><span>2.添加触发方式（站桩对话示例）</span></a></h3>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>我们能用多种触发方式<code v-pre>选项卡触发</code>、<code v-pre>碰撞器触发</code>、<code v-pre>信号触发</code>、等等...</p>
 <p>这里我们只介绍<code v-pre>选项卡触发</code>方式，因为它涉及添加本地过滤器的步骤，而其他触发方式不需要</p>
 </div>
@@ -56,7 +56,7 @@ style="width: 100%; border-radius: 8px;">
 <p>在没改变对话类型的情况下，我们发现<code v-pre>下一句话的按钮</code>消失了，取而代之的是经过2s后自定下一句话</p>
 <div class="hint-container important">
 <p class="hint-container-title">重要</p>
-<p>在设定中，只要时间列表有值，就会代替掉手动下一句话，并按照内容查询对应的时间下一句</p>
+<p>在设定中，只要时间列表有值，就会代替掉手动下一句话（按钮），并按照内容查询对应的时间下一句</p>
 <p>若是时间列表长度小于内容长度，会导致对话卡住，无法下一句话！</p>
 </div>
 <p><video src="/assets/dialogue-function-introduction/内容显示时间视频.mp4"

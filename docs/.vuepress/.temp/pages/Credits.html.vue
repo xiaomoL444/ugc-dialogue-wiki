@@ -2,7 +2,7 @@
   <VPCard class="vp-card-container"
     title="Shatira"
     desc="某种情况下也算是这个存档的发起者了，最初是Shatira问怎么做和对话相关的内容，正好我也要做，所以就做了一个模板，在这之中Shatira提了非常多的改进建议"
-    logo="./assets/credits/a25e174b63939ec5727da6376631ba486ad1d2fe.jpg"
+    logo="https://bilibili-user-avatar.2802273114.workers.dev/?url=https://i1.hdslb.com/bfs/face/a25e174b63939ec5727da6376631ba486ad1d2fe.jpg"
     link="https://space.bilibili.com/34459564"
     background="#F0FFFF"
   />
@@ -18,7 +18,7 @@
     <VPCard class="vp-card-container"
     title="小猪之最Thepig"
     desc="技术大佬，同样也做了一份对话模板。交流了很多和对话有关的心得， 某种情况下这份wiki的想法也是由小猪佬启发的"
-    logo="./assets/credits/d5ef4327d11e8ea4be6f089a491cdf94bd95c2e0.jpg"
+    logo="https://bilibili-user-avatar.2802273114.workers.dev/?url=https://i1.hdslb.com/bfs/face/d5ef4327d11e8ea4be6f089a491cdf94bd95c2e0.jpg"
     link="https://space.bilibili.com/381671770"
     background="#FFE4E1"
   />

@@ -1,8 +1,4 @@
 <template><div><h1 id="快速开始" tabindex="-1"><a class="header-anchor" href="#快速开始"><span>快速开始</span></a></h1>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>网页尚未完全搭建完成，非常抱歉！运镜条目之后的内容请移步至我的B站链接查看</p>
-</div>
 <div class="hint-container important">
 <p class="hint-container-title">重要</p>
 <p>强烈推荐导入gil地图模版，从模版地图上开发开发奇域。若在了解到该模版地图前已进行大量奇域的搭建，迁移困难，可移步至<a href="#%E4%BB%A5gia%E5%85%83%E4%BB%B6%E5%BD%A2%E5%BC%8F%E4%B8%8B%E8%BD%BD">以gia元件形式下载</a></p>
@@ -79,7 +75,7 @@
 <p><img src="@source/assets/元件库实体展示.png" alt="元件库实体展示"></p>
 <p>在它们身上的节点图中，同样存在部分需要修复的索引。重复<a href="#_1-%E7%8E%A9%E5%AE%B6%E8%BA%AB%E4%B8%8A%E8%8A%82%E7%82%B9%E5%9B%BE%E7%9A%84%E6%8E%A7%E4%BB%B6%E7%B4%A2%E5%BC%95%E4%BF%AE%E5%A4%8D">1.玩家身上节点图的控件索引修复</a>的步骤，进入界面控件组库，将对应名字的控件id复制替换进来</p>
 <p><img src="@source/assets/查看对话管理器对话索引.png" alt="查看对话管理器对话索引"></p>
-<p>至此修复功能已完毕，可进入下一步查看</p>
+<p>至此修复功能已完毕，可进入下一步查看 <a href="%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D/%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%AF%9D">创建对话</a></p>
 </div></template>
 
 

@@ -13,7 +13,7 @@ export default defineUserConfig({
   base: '/',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'https://bilibili-user-avatar.2802273114.workers.dev/?url=https://i1.hdslb.com/bfs/face/b94d505e6be9b2504f6fa23c0030751b23f54e5f.jpg',
 
     navbar: ['/', '/get-started'],
 
@@ -42,6 +42,7 @@ export default defineUserConfig({
           '任务系统'
         ]
       },
+      '更新日志.md',
       'credits.md'
     ],
   }),

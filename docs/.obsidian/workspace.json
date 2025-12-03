@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf0c467ad4fb21dc",
+        "id": "bb5ada53473a4758",
         "type": "tabs",
         "children": [
           {
-            "id": "e4eaf3921bb5a00b",
+            "id": "ffdb4fc4dde67300",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "功能介绍/任务系统.md",
+                "file": "get-started.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "任务系统"
+              "title": "get-started"
             }
           }
         ]
@@ -183,42 +183,44 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e4eaf3921bb5a00b",
+  "active": "ffdb4fc4dde67300",
   "lastOpenFiles": [
-    "功能介绍/额外说明.md",
+    "对话功能介绍.md",
+    "更新日志.md",
+    "assets/更新日志/拉出Gamecoordinator节点图变量.png",
+    "assets/更新日志/找到Gamecoordinator.png",
+    "assets/更新日志/找到Gamecoordinator的问题.png",
+    "assets/更新日志",
+    "assets/新建文件夹",
+    "功能介绍/节点图事件触发.md",
+    "功能介绍/选项卡.md",
+    "功能介绍/跳转对话.md",
+    "功能介绍/创建对话.md",
+    "创建对话.md",
+    "get-started.md",
+    "credits.md",
     "功能介绍/任务系统.md",
+    "assets/dialogue-function-introduction/任务节点图.png",
+    "assets/dialogue-function-introduction/特效和铭牌.png",
+    "assets/dialogue-function-introduction/任务结构体.png",
+    "功能介绍/已实现的功能.md",
+    "assets/dialogue-function-introduction/任务配置列表高级数据管理.png",
+    "功能介绍/额外说明.md",
     "assets/dialogue-function-introduction/ShowNormalUI内部.png",
     "assets/dialogue-function-introduction/ShowNormalUI.png",
-    "功能介绍/跳转对话.md",
     "功能介绍/性能优化.md",
-    "功能介绍/选项卡.md",
-    "功能介绍/已实现的功能.md",
-    "功能介绍/创建对话.md",
     "功能介绍/通用节点.md",
     "assets/dialogue-function-introduction/玩家身上节点图变量.png",
-    "assets/dialogue-function-introduction/玩家身上节点图.png",
     "功能介绍/运镜.md",
-    "assets/dialogue-function-introduction/对话隐藏UI.png",
-    "assets/dialogue-function-introduction/对话管理器开关过渡.png",
-    "assets/dialogue-function-introduction/对话管理器.png",
-    "assets/dialogue-function-introduction/创建调整选项卡比例选项.png",
-    "assets/dialogue-function-introduction/创建一段Tip.png",
-    "assets/dialogue-function-introduction/self7.png",
     "assets/dialogue-function-introduction/运镜讲解.mp4",
     "assets/dialogue-function-introduction/运镜讲解.mp3",
-    "credits.md",
-    "get-started.md",
     "assets/dialogue-function-introduction/运镜讲解",
     "assets/credits/a25e174b63939ec5727da6376631ba486ad1d2fe.jpg.fdmdownload",
     "assets/credits",
     "assets/Credits",
-    "assets/新建文件夹",
-    "对话功能介绍.md",
     "README.md",
-    "功能介绍/节点图事件触发.md",
     "功能介绍",
     "assets/dialogue-function-introduction/选择选项卡视频.mp4",
-    "assets/dialogue-function-introduction/选择选项卡视频",
     "[].md",
     "gil图片.md",
     "gil地图链接.md"
