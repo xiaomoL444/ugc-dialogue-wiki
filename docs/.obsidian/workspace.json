@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "get-started.md",
+                "file": "更新日志.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "get-started"
+              "title": "更新日志"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "ffdb4fc4dde67300",
   "lastOpenFiles": [
+    "get-started.md",
     "对话功能介绍.md",
     "更新日志.md",
     "assets/更新日志/拉出Gamecoordinator节点图变量.png",
@@ -197,7 +198,6 @@
     "功能介绍/跳转对话.md",
     "功能介绍/创建对话.md",
     "创建对话.md",
-    "get-started.md",
     "credits.md",
     "功能介绍/任务系统.md",
     "assets/dialogue-function-introduction/任务节点图.png",
