@@ -11,6 +11,7 @@ import * as clientConfig9 from 'C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vu
 import * as clientConfig10 from 'C:/Code/ugc-dialogue-wiki/node_modules/.pnpm/@vuepress+theme-default@2.0_81cf877b704bcf3c7394274320fec366/node_modules/@vuepress/theme-default/lib/client/config.js'
 import * as clientConfig11 from 'C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/sass-palette/load-hope.js'
 import * as clientConfig12 from 'C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/md-enhance/config.js'
+import * as clientConfig13 from 'C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/components/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -26,4 +27,5 @@ export const clientConfigs = [
   clientConfig10,
   clientConfig11,
   clientConfig12,
+  clientConfig13,
 ].map((m) => m.default).filter(Boolean)

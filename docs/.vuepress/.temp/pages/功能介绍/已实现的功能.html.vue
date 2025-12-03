@@ -65,6 +65,11 @@ style="width: 100%; border-radius: 8px;">
 <p>官方：无</p>
 <p>模板：<img src="/assets/dialogue-function-introduction/self6.png" alt="模版图片"></p>
 </details>
+<details class="hint-container details"><summary>创建一段Tip</summary>
+<p>官方：没找，通常是完成挑战</p>
+<p>模板：<img src="/assets/dialogue-function-introduction/self7.png" alt="模版图片"></p>
+<p><RouteLink to="/%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D/%E9%80%9A%E7%94%A8%E8%8A%82%E7%82%B9.html#%E5%88%9B%E5%BB%BA%E4%B8%80%E6%AE%B5%E5%B0%8Ftip">创建一段小Tip</RouteLink></p>
+</details>
 <div class="hint-container info">
 <p class="hint-container-title"><code v-pre>锁定对话</code>和<code v-pre>非锁定对话</code></p>
 <p><code v-pre>锁定对话</code>：指在触发对话时，玩家会被固定在空气盒中，无法移动，并且关闭屏幕上基础的ui</p>

@@ -1,4 +1,11 @@
 <template><div><h1 id="额外说明" tabindex="-1"><a class="header-anchor" href="#额外说明"><span>额外说明</span></a></h1>
+<h2 id="传送频率" tabindex="-1"><a class="header-anchor" href="#传送频率"><span>传送频率</span></a></h2>
+<p>因为进入站桩对话等限位对话时，会主动传送一次玩家，防止伺服器和客户端位置不同步，因此在对话之前请注意传送玩家的频率，通常在1s内频繁传送会导致传送失败</p>
+<h2 id="如何隐藏屏幕上的默认ui" tabindex="-1"><a class="header-anchor" href="#如何隐藏屏幕上的默认ui"><span>如何隐藏屏幕上的默认UI</span></a></h2>
+<p>这版在进入站桩对话等限位对话时，会隐藏屏幕上的其余UI，再在退出时全部开启，因此奇匠可能会遇到，明明我在控件界面关闭了某些控件（地图、队伍信息等）的可见性，可是对话后却重新显示了，需要进入复合节点的Private Tool里的ShowNormalUI中，根据控件ID，将控件显示状态调整为隐藏</p>
+<p><img src="/assets/dialogue-function-introduction/ShowNormalUI.png" alt="示例"></p>
+<p>这里的开启控件的id和默认UI<code v-pre>小地图、摇杆、血条</code>等等一一对应</p>
+<p><img src="/assets/dialogue-function-introduction/ShowNormalUI内部.png" alt="示例"></p>
 </div></template>
 
 

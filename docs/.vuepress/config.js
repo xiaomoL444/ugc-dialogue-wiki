@@ -2,6 +2,8 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance';
+import { componentsPlugin } from "vuepress-plugin-components";
+
 export default defineUserConfig({
   lang: 'zh-CN',
 
@@ -36,7 +38,8 @@ export default defineUserConfig({
           '运镜',
           '通用节点',
           '性能优化',
-          '额外说明'
+          '额外说明',
+          '任务系统'
         ]
       },
       'credits.md'
@@ -48,6 +51,9 @@ export default defineUserConfig({
   plugins: [
     mdEnhancePlugin({
       toc: true, // 开启右侧标题导航
+    }),
+    componentsPlugin({
+      components: ["VPCard"], // ← 必须写这个！否则不会注册组件
     }),
   ],
 })

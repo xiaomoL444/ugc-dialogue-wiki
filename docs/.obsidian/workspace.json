@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "credits.md",
+                "file": "功能介绍/任务系统.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "credits"
+              "title": "任务系统"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 225.5
   },
   "right": {
     "id": "373579a48f48b727",
@@ -185,39 +185,40 @@
   },
   "active": "e4eaf3921bb5a00b",
   "lastOpenFiles": [
-    "README.md",
-    "get-started.md",
-    "对话功能介绍.md",
-    "功能介绍/运镜.md",
-    "功能介绍/创建对话.md",
     "功能介绍/额外说明.md",
-    "功能介绍/性能优化.md",
-    "功能介绍/通用节点.md",
-    "功能介绍/已实现的功能.md",
-    "功能介绍/节点图事件触发.md",
-    "功能介绍/选项卡.md",
-    "credits.md",
+    "功能介绍/任务系统.md",
+    "assets/dialogue-function-introduction/ShowNormalUI内部.png",
+    "assets/dialogue-function-introduction/ShowNormalUI.png",
     "功能介绍/跳转对话.md",
+    "功能介绍/性能优化.md",
+    "功能介绍/选项卡.md",
+    "功能介绍/已实现的功能.md",
+    "功能介绍/创建对话.md",
+    "功能介绍/通用节点.md",
+    "assets/dialogue-function-introduction/玩家身上节点图变量.png",
+    "assets/dialogue-function-introduction/玩家身上节点图.png",
+    "功能介绍/运镜.md",
+    "assets/dialogue-function-introduction/对话隐藏UI.png",
+    "assets/dialogue-function-introduction/对话管理器开关过渡.png",
+    "assets/dialogue-function-introduction/对话管理器.png",
+    "assets/dialogue-function-introduction/创建调整选项卡比例选项.png",
+    "assets/dialogue-function-introduction/创建一段Tip.png",
+    "assets/dialogue-function-introduction/self7.png",
+    "assets/dialogue-function-introduction/运镜讲解.mp4",
+    "assets/dialogue-function-introduction/运镜讲解.mp3",
+    "credits.md",
+    "get-started.md",
+    "assets/dialogue-function-introduction/运镜讲解",
+    "assets/credits/a25e174b63939ec5727da6376631ba486ad1d2fe.jpg.fdmdownload",
+    "assets/credits",
+    "assets/Credits",
+    "assets/新建文件夹",
+    "对话功能介绍.md",
+    "README.md",
+    "功能介绍/节点图事件触发.md",
     "功能介绍",
-    "Pasted image 20251202180822.png",
-    "assets/dialogue-function-introduction/节点图事件触发界面.png",
-    "assets/dialogue-function-introduction/跳转对话的触发节点图.png",
-    "assets/dialogue-function-introduction/节点图触发事件.png",
     "assets/dialogue-function-introduction/选择选项卡视频.mp4",
     "assets/dialogue-function-introduction/选择选项卡视频",
-    "assets/dialogue-function-introduction/创建选项卡节点图.png",
-    "assets/dialogue-function-introduction/选项一对话.png",
-    "assets/dialogue-function-introduction/选项卡后面的变量.png",
-    "assets/dialogue-function-introduction/选项卡编辑好.png",
-    "assets/dialogue-function-introduction/选项卡结构体.png",
-    "assets/dialogue-function-introduction/创建选项卡变量.png",
-    "assets/dialogue-function-introduction/跳转对话视频.mp4",
-    "assets/dialogue-function-introduction/跳转对话视频.mp43",
-    "assets/dialogue-function-introduction/黑幕示例.mp4",
-    "assets/dialogue-function-introduction/黑幕示例",
-    "assets/dialogue-function-introduction/边走边说示例.mp4",
-    "assets/dialogue-function-introduction/边走边说示例",
-    "assets/dialogue-function-introduction/内容显示时间视频.mp4",
     "[].md",
     "gil图片.md",
     "gil地图链接.md"
