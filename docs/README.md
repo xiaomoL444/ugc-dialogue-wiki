@@ -11,8 +11,8 @@ actions:
     link: https://act.mihoyo.com/ys/prod/ugc/component-store/index.html#/item/1992801772275511296
     type: secondary
 
-  - text: B站视频链接
-    link: https://vuejs.press/guide/introduction.html
+  - text: B站模版视频链接
+    link: https://www.bilibili.com/video/BV1fYsGz1EpA/?share_source=copy_web&vd_source=812e2c82e7fedf05055036fee2e3a635
     type: secondary
 
 features:
