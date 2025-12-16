@@ -1,4 +1,8 @@
 <template><div><h1 id="快速开始" tabindex="-1"><a class="header-anchor" href="#快速开始"><span>快速开始</span></a></h1>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>若奇匠已用旧版的地图模版作图，请勿将数据重新导出迁移到新地图！UGC的导入机制不存在覆盖的操作，导入后只会让存档节点图变得混乱</p>
+</div>
 <div class="hint-container important">
 <p class="hint-container-title">重要</p>
 <p>强烈推荐导入gil地图模版，从模版地图上开发开发奇域。若在了解到该模版地图前已进行大量奇域的搭建，迁移困难，可移步至<a href="#%E4%BB%A5gia%E5%85%83%E4%BB%B6%E5%BD%A2%E5%BC%8F%E4%B8%8B%E8%BD%BD">以gia元件形式下载</a></p>

@@ -4,6 +4,7 @@ export const routes = Object.fromEntries([
   ["/credits.html", { loader: () => import(/* webpackChunkName: "credits.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/credits.html.js"), meta: {"title":"特别鸣谢"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"快速开始"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
+  ["/%E5%8D%83%E6%98%9F%E6%B2%99%E7%AE%B1%E5%90%84%E7%A7%8D%E6%95%B0%E9%87%8F%E4%B8%8A%E9%99%90.html", { loader: () => import(/* webpackChunkName: "千星沙箱各种数量上限.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/千星沙箱各种数量上限.html.js"), meta: {"title":"千星沙箱各种数量上限（截止月之二 2025.12.16）"} }],
   ["/%E5%AF%B9%E8%AF%9D%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D.html", { loader: () => import(/* webpackChunkName: "对话功能介绍.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/对话功能介绍.html.js"), meta: {"title":"对话功能介绍"} }],
   ["/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html", { loader: () => import(/* webpackChunkName: "更新日志.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/更新日志.html.js"), meta: {"title":"更新日志"} }],
   ["/%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D/%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F.html", { loader: () => import(/* webpackChunkName: "功能介绍_任务系统.html" */"C:/Code/ugc-dialogue-wiki/docs/.vuepress/.temp/pages/功能介绍/任务系统.html.js"), meta: {"title":"任务系统"} }],
