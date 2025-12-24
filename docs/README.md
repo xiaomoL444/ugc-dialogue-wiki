@@ -15,9 +15,20 @@ actions:
     link: https://www.bilibili.com/video/BV1fYsGz1EpA/?share_source=copy_web&vd_source=812e2c82e7fedf05055036fee2e3a635
     type: secondary
 
+  - text: 在线结构体编辑网页
+    link: https://tool.xiaomol444.xyz/UGCStructViewer
+    type: secondary
+
+  - text: 像素画转文本网页
+    link: https://tool.xiaomol444.xyz/UGCPixelArt
+    type: secondary
+
 features:
-  - title: 占位符
-    details: 占位符
+  - title: 在线结构体编辑网页
+    details: 在线结构体编辑网页
+
+  - title: 像素画转文本网页
+    details: 像素画转文本网页
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
@@ -25,3 +36,6 @@ footer: MIT Licensed | Copyright © 2018-present VuePress Community
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+
+
+[在线结构体编辑网页]: https://tool.xiaomol444.xyz/UGCStructViewer

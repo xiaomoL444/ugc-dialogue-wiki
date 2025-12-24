@@ -18,6 +18,8 @@
 <p><img src="@source/assets/千星沙箱各种数量上限/节点图/信号上限.png" alt="图片"></p>
 <h3 id="信号参数上限-10" tabindex="-1"><a class="header-anchor" href="#信号参数上限-10"><span>信号参数上限：10</span></a></h3>
 <p><img src="@source/assets/千星沙箱各种数量上限/节点图/信号参数上限.png" alt="图片"></p>
+<h3 id="实体挂载节点图上限-10张" tabindex="-1"><a class="header-anchor" href="#实体挂载节点图上限-10张"><span>实体挂载节点图上限：10张</span></a></h3>
+<h3 id="职业节点图上限-玩家、角色-各20张" tabindex="-1"><a class="header-anchor" href="#职业节点图上限-玩家、角色-各20张"><span>职业节点图上限：玩家、角色：各20张</span></a></h3>
 <h2 id="元件组" tabindex="-1"><a class="header-anchor" href="#元件组"><span>元件组</span></a></h2>
 <h3 id="单个元件组中的实体上限-30" tabindex="-1"><a class="header-anchor" href="#单个元件组中的实体上限-30"><span>单个元件组中的实体上限：30</span></a></h3>
 <p><img src="@source/assets/千星沙箱各种数量上限/元件组/元件组内元件上限.png" alt="图片"></p>
@@ -36,6 +38,7 @@
 <h3 id="镜头上限-1734" tabindex="-1"><a class="header-anchor" href="#镜头上限-1734"><span>镜头上限：&gt;1734</span></a></h3>
 <p><img src="@source/assets/千星沙箱各种数量上限/镜头上限.png" alt="图片"></p>
 <h3 id="预设点上限-2000" tabindex="-1"><a class="header-anchor" href="#预设点上限-2000"><span>预设点上限：2000</span></a></h3>
+<h3 id="单位挂接点上限-包括默认挂接点-50" tabindex="-1"><a class="header-anchor" href="#单位挂接点上限-包括默认挂接点-50"><span>单位挂接点上限（包括默认挂接点）：50</span></a></h3>
 </div></template>
 
 
