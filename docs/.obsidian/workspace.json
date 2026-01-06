@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "千星沙箱各种数量上限.md",
+                "file": "credits.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "千星沙箱各种数量上限"
+              "title": "credits"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "ffdb4fc4dde67300",
   "lastOpenFiles": [
+    "更新日志.md",
+    "对话功能介绍.md",
+    "千星沙箱各种数量上限.md",
     "assets/千星沙箱各种数量上限/镜头上限.png",
     "assets/千星沙箱各种数量上限/布设组/布设组上限.png",
     "assets/千星沙箱各种数量上限/元件/元件数量上限.png",
@@ -198,17 +201,13 @@
     "assets/千星沙箱各种数量上限/变量/信号上限.png",
     "assets/千星沙箱各种数量上限/变量/节点图变量上限.png",
     "assets/千星沙箱各种数量上限/变量/结构体字段上限.png",
-    "assets/千星沙箱各种数量上限/元件组/元件组内元件上限.png",
     "assets/千星沙箱各种数量上限/元件组",
     "assets/千星沙箱各种数量上限/变量",
     "assets/千星沙箱各种数量上限/布设组",
     "get-started.md",
-    "更新日志.md",
-    "千星沙箱各种数量上限.md",
     "assets/千星沙箱各种数量上限",
     "assets/千星沙箱的",
     "assets/新建文件夹",
-    "对话功能介绍.md",
     "assets/更新日志",
     "功能介绍/节点图事件触发.md",
     "功能介绍/选项卡.md",
