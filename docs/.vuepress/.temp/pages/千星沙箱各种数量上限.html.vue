@@ -35,8 +35,11 @@
 <h2 id="未分类区" tabindex="-1"><a class="header-anchor" href="#未分类区"><span>未分类区</span></a></h2>
 <h3 id="装饰物上限-999" tabindex="-1"><a class="header-anchor" href="#装饰物上限-999"><span>装饰物上限：999</span></a></h3>
 <p><img src="@source/assets/千星沙箱各种数量上限/装饰物上限.png" alt="图片"></p>
-<h3 id="镜头上限-1734" tabindex="-1"><a class="header-anchor" href="#镜头上限-1734"><span>镜头上限：&gt;1734</span></a></h3>
-<p><img src="@source/assets/千星沙箱各种数量上限/镜头上限.png" alt="图片"></p>
+<h3 id="镜头上限-1w" tabindex="-1"><a class="header-anchor" href="#镜头上限-1w"><span>镜头上限：1w</span></a></h3>
+<p>原生编辑器在镜头数量理论无上限，但是从第10001个开始，命名出现问题，由自定义镜头_x，变为Invalid Name_x，并且从20001开始游戏直接炸了，然后弹出：存档载入校验失败，invalid，回退存档
+（来自<a href="https://space.bilibili.com/83028120" target="_blank" rel="noopener noreferrer">@YX绿叶</a>）</p>
+<p>因此不建议制作超过1w数量的镜头模板</p>
+<p><img src="@source/assets/千星沙箱各种数量上限/镜头上限2.png" alt="图片"></p>
 <h3 id="预设点上限-2000" tabindex="-1"><a class="header-anchor" href="#预设点上限-2000"><span>预设点上限：2000</span></a></h3>
 <h3 id="单位挂接点上限-包括默认挂接点-50" tabindex="-1"><a class="header-anchor" href="#单位挂接点上限-包括默认挂接点-50"><span>单位挂接点上限（包括默认挂接点）：50</span></a></h3>
 </div></template>

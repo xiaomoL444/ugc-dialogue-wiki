@@ -10,7 +10,7 @@
  <VPCard class="vp-card-container"
     title="百里问弦"
     desc="视频BV1fYsGz1EpA，提了非常多和视频、封面相关的建议和制作方法，但很可惜截至2025.12.3我还没有千粉，拉不了联合投稿"
-    logo="./assets/credits/8924f6622461114d815b97bf7e3440c34e1ce2dd.jpg"
+    logo="https://bilibili-user-avatar.2802273114.workers.dev/?url=https://i2.hdslb.com/bfs/face/8924f6622461114d815b97bf7e3440c34e1ce2dd.jpg"
     link="https://space.bilibili.com/352927517"
     background="#FFF0F5"
   />
