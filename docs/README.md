@@ -23,6 +23,10 @@ actions:
     link: https://tool.xiaomol444.xyz/UGCPixelArt
     type: secondary
 
+  - text: 音效预览网页
+    link: https://tool.xiaomol444.xyz/UGCSoundEffectPlayer
+    type: secondary
+
 features:
   - title: 在线结构体编辑网页
     details: 在线结构体编辑网页
@@ -30,12 +34,13 @@ features:
   - title: 像素画转文本网页
     details: 像素画转文本网页
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - title: 音效预览网页
+    details: 音效预览网页
+
+footer: 这是一段注脚
 ---
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
-
-
 [在线结构体编辑网页]: https://tool.xiaomol444.xyz/UGCStructViewer
