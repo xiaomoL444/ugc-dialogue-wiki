@@ -1,0 +1,71 @@
+diff --git a/dist/client/theme-default/composables/outline.js b/dist/client/theme-default/composables/outline.js
+index 1bf9e8b0a287348e355cb858a39ca9f598f3f5b8..11d32f5fb4889e8f203dcf4684d8e40d24035c62 100644
+--- a/dist/client/theme-default/composables/outline.js
++++ b/dist/client/theme-default/composables/outline.js
+@@ -34,9 +34,10 @@ function resolveHeaders(headers, range) {
+ }
+ function useActiveAnchor(container, marker) {
+ 	const isAsideVisible = useMediaQuery("(min-width: 80rem)");
+-	const onScroll = throttleAndDebounce(setActiveLink, 100);
++	const updateActiveLink = throttleAndDebounce(setActiveLink, 100);
+ 	let prevActiveLink = null;
+ 	let ignoreScrollOnce = false;
++	let outlineScrollTimer;
+ 	onMounted(() => {
+ 		requestAnimationFrame(setActiveLink);
+ 		window.addEventListener("scroll", onScroll);
+@@ -47,17 +48,31 @@ function useActiveAnchor(container, marker) {
+ 	});
+ 	onUnmounted(() => {
+ 		window.removeEventListener("scroll", onScroll);
++		clearTimeout(outlineScrollTimer);
+ 	});
++	function trackOutlineScroll() {
++		clearTimeout(outlineScrollTimer);
++		// Keep the selected heading active until the smooth scroll settles.
++		outlineScrollTimer = window.setTimeout(() => {
++			outlineScrollTimer = undefined;
++			ignoreScrollOnce = false;
++		}, 180);
++	}
++	function onScroll() {
++		if (outlineScrollTimer !== undefined) trackOutlineScroll();
++		else updateActiveLink();
++	}
+ 	function onClick(e) {
+ 		if (!isAsideVisible.value) return;
+ 		const hash = e.target instanceof Element ? e.target.closest("a")?.hash : null;
+ 		if (hash) {
+ 			ignoreScrollOnce = true;
++			if (document.documentElement.classList.contains("smooth-outline-scroll")) trackOutlineScroll();
+ 			activateLink(hash);
+ 		}
+ 	}
+ 	function setActiveLink() {
+-		if (!isAsideVisible.value) return;
++		if (!isAsideVisible.value || outlineScrollTimer !== undefined) return;
+ 		if (ignoreScrollOnce) {
+ 			ignoreScrollOnce = false;
+ 			return;
+@@ -101,10 +116,17 @@ function useActiveAnchor(container, marker) {
+ 				marker.value.style.top = activeLink.offsetTop + (activeLink.offsetParent?.offsetTop ?? 0) + (activeLink.offsetHeight - marker.value.offsetHeight) / 2 + "px";
+ 				marker.value.style.opacity = "1";
+ 			}
+-			activeLink.scrollIntoView({
+-				block: "nearest",
+-				behavior: "smooth"
+-			});
++			const aside = activeLink.closest(".aside-container");
++			if (aside && aside.scrollHeight > aside.clientHeight) {
++				// Reveal the link inside the outline without scrolling the document.
++				const bounds = aside.getBoundingClientRect();
++				const linkBounds = activeLink.getBoundingClientRect();
++				const marginTop = Number.parseFloat(getComputedStyle(activeLink).scrollMarginTop) || 0;
++				const above = linkBounds.top - bounds.top - marginTop;
++				const below = linkBounds.bottom - bounds.bottom;
++				const offset = above < 0 ? above : Math.max(0, below);
++				if (offset) aside.scrollBy({ top: offset, behavior: "instant" });
++			}
+ 		} else if (marker.value) {
+ 			marker.value.style.top = "";
+ 			marker.value.style.opacity = "0";

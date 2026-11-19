@@ -1,2 +1,2 @@
-allowBuilds:
-  esbuild: set this to true or false
+patchedDependencies:
+  vitepress@2.0.0-alpha.21: patches/vitepress@2.0.0-alpha.21.patch
